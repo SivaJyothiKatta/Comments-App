@@ -1,0 +1,75 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  font-family: Roboto;
+}
+
+.heading {
+  color: #1e293b;
+}
+
+.comments-container {
+  border: 1px solid #cbd2d9;
+  border-radius: 4px;
+  outline: none;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.description {
+  color: #475569;
+}
+
+.user-input {
+  border: 1px solid #cbd2d9;
+  border-radius: 4px;
+  outline: none;
+}
+
+.text-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  background-color: #0284c7;
+  color: #ffffff;
+  align-self: flex-start;
+  border: none;
+  padding: 8px 16px 8px 16px;
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+}
+
+.horizontal-line {
+  border: 1px solid #dee0e3;
+  width: 100%;
+}
+
+.comments {
+  color: #475569;
+}
+
+.comments-count {
+  background-color: #0284c7;
+  color: #ffffff;
+  align-self: center;
+  padding: 4px 8px 4px 8px;
+}
+
+.comments-list {
+  padding-left: 0;
+  margin-top: 0;
+}

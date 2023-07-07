@@ -1,0 +1,104 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+.comments-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.comments-container {
+  display: flex;
+}
+
+.initial {
+  color: #ffffff;
+  font-family: Roboto;
+}
+
+.post-details {
+  display: flex;
+  align-items: center;
+}
+
+.user-name {
+  color: #334155;
+  font-family: Roboto;
+}
+
+.time {
+  color: #94a3b8;
+  font-family: Roboto;
+}
+
+.comment {
+  color: 64748b;
+  font-family: Roboto;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.like-container {
+  display: flex;
+  align-items: center;
+}
+
+.like {
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+}
+
+.btn {
+  background-color: transparent;
+  color: #7e858e;
+  font-family: Roboto;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.delete {
+  width: 30px;
+  height: 30px;
+}
+
+.line {
+  width: 100%;
+  border: 1px solid #dee0e3;
+}
+
+.active {
+  color: #0ea5e9;
+}
